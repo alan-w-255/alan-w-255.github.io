@@ -17,7 +17,7 @@
       <pubDate>Sat, 25 Jul 2020 00:23:47 +0800</pubDate>
       
       <guid>https://alan-w-255.github.io/posts/host-hugo-on-github/</guid>
-      <description> 创建 .github.io 的代码仓库。 git submodule add -b master https://github.com/.github.io.git public git add . &amp;amp;&amp;amp; git commit -m &amp;ldquo;blog update&amp;rdquo; &amp;amp;&amp;amp; git push open https://.github.io to see your blog  </description>
+      <description> 创建 .github.io 的代码仓库。 git submodule add -b master https://github.com/&amp;lt;USERNAME&amp;gt;.github.io.git public git add . &amp;amp;&amp;amp; git commit -m &amp;ldquo;blog update&amp;rdquo; &amp;amp;&amp;amp; git push open https://&amp;lt;USERNAME&amp;gt;.github.io to see your blog  </description>
     </item>
     
     <item>

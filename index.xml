@@ -6,9 +6,28 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jul 2020 00:23:47 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Host Hugo on Github</title>
+      <link>http://example.org/posts/host-hugo-on-github/</link>
+      <pubDate>Sat, 25 Jul 2020 00:23:47 +0800</pubDate>
+      
+      <guid>http://example.org/posts/host-hugo-on-github/</guid>
+      <description> 创建 .github.io 的代码仓库。 git submodule add -b master https://github.com/.github.io.git public git add . &amp;amp;&amp;amp; git commit -m &amp;ldquo;blog update&amp;rdquo; &amp;amp;&amp;amp; git push open https://.github.io to see your blog  </description>
+    </item>
+    
+    <item>
+      <title>Start Hugo Blog</title>
+      <link>http://example.org/posts/start-hugo-blog/</link>
+      <pubDate>Sat, 25 Jul 2020 00:09:03 +0800</pubDate>
+      
+      <guid>http://example.org/posts/start-hugo-blog/</guid>
+      <description>安装 hugo sudo pacman -S hugo 创建新站点 hugo new site blog 安装主题 cd blog git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git theme/ananke echo &amp;#39;theme = ananke&amp;#39; &amp;gt;&amp;gt; config.toml 添加第一篇博客 hugo new posts/my-first-post 查看效果 hugo server -D 然后打开浏览器，输入服务地址，就能看到效果啦。</description>
+    </item>
     
   </channel>
 </rss>

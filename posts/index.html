@@ -35,7 +35,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://alan-w-255.github.io/posts/" />
-<meta property="og:updated_time" content="2020-07-25T00:23:47+08:00" />
+<meta property="og:updated_time" content="2020-07-25T13:13:52+08:00" />
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -96,6 +96,25 @@
   <article class="pa3 pa4-ns nested-copy-line-height nested-img">
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
     <section class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="https://alan-w-255.github.io/posts/kde-set-resolution-for-app/" class="link black dim">
+        linux 单独为应用设置分辨率
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      通过设置 QT_SCREEN_SCALE_FACTORS 环境变量为每个视频输出端口设置分辨率。 如果我们需要单独为某一个应用设置这个变量，我们可以利用 .desktop 文件来实现启动某一个应用时单独设置分辨率。
+找到 .desktop 文件的 Exec= 字段，在后面添加你要缩放的倍数。
+例如：
+Exec=env QT_SCREEN_SCALE_FACTORS=2 firefox 然后保存文件，更新 .desktop 文件，输入命令 update-desktop-database。
+这样，点击 firefox 图标启动时，就自动设置了 QT_SCREEN_SCALE_FACTORS=2 这个环境变量。应用程序分辨率放大了 2 倍。
+    </div>
+  </div>
+</div>
+</div>
       
         <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
